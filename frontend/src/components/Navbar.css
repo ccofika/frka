@@ -1,0 +1,84 @@
+/*navigation bar*/
+
+@font-face {
+  font-family: integralCF-Bold;
+  src: url('../content/fonts/IntegralCF-Bold.otf');
+}
+
+@font-face {
+  font-family: integralCF-Medium;
+  src: url('../content/fonts/IntegralCF-Medium.otf');
+}
+
+@font-face {
+  font-family: integralCF-Regular;
+  src: url('../content/fonts/IntegralCF-Regular.otf');
+}
+
+
+#belitekst{
+    color: #131313;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #131313;
+  }
+  
+  .header{
+    font-family: integralCF-Regular;
+    display: flex;
+    width: 100%;
+    letter-spacing: 2px;
+    justify-content: center;
+  }
+  
+  .header-text {
+    margin: 0;
+    padding: 20px;
+    font-size: 30px;
+  
+  }
+
+  
+
+#navbar-splitter{
+    margin-right: auto !important;
+}
+
+#credits{
+    margin-left: auto;
+    font-size: 20px !important;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white
+}
+
+.logout{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .header{
+        font-family: integralCF-Regular;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        letter-spacing: 2px;
+        justify-content: center !important;
+      }
+
+    .header-text{
+        font-size: 15px !important;
+        padding: 10px;
+        min-width: 50px !important;
+    }
+    #credits{
+        min-width: 100%;
+        font-size: 10px !important;
+        margin-left: 0px !important;
+    }
+
+}

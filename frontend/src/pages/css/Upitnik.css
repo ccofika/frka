@@ -1,0 +1,73 @@
+@font-face {
+    font-family: integralCF-Bold;
+    src: url('../../content/fonts/IntegralCF-Bold.otf');
+  }
+  
+  @font-face {
+    font-family: integralCF-Medium;
+    src: url('../../content/fonts/IntegralCF-Medium.otf');
+  }
+  
+  @font-face {
+    font-family: integralCF-Regular;
+    src: url('../../content/fonts/IntegralCF-Regular.otf');
+  }
+
+.upitnik{
+    width: 100%;
+    height: 100svh;
+    background-color: #eeeeee;
+}
+
+.upitnik-h1{
+    color: #131313;
+    font-family: integralCF-Bold;
+    font-size: 80px;
+    text-align: left;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+.contact-info{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+}
+
+.line{
+    margin-left: 350px;
+    height: 560px;
+    width: 2px;
+    background-color: #131313;
+}
+
+.upitnik-contact-h1{
+    color: #131313;
+    font-family: integralCF-Medium;
+    text-align: left;
+    margin-left: 50px;
+    line-height: 130px;
+    font-weight: 300;
+}
+
+.regular{
+    font-family: integralCF-Regular;
+    font-weight: 50;
+}
+
+@media only screen and (max-width: 375px) {
+    .upitnik-h1{
+        font-size: 30px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .line{
+        margin-left: 75px;
+        height: 350px;
+    }
+    .upitnik-contact-h1{
+        font-size: 10px;
+        line-height: 70px;
+    }
+}

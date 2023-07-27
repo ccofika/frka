@@ -1,0 +1,266 @@
+@import url('https://fonts.cdnfonts.com/css/aventena'); /*font-family: 'AVENTENA', sans-serif;*/
+@import url('https://fonts.cdnfonts.com/css/qarkine');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9'); /*font-family: 'Helvetica Neue', sans-serif;
+font-family: 'Helvetica 25 UltraLight', sans-serif;
+font-family: 'Helvetica 35 Thin', sans-serif;
+font-family: 'Helvetica 45 Light', sans-serif;
+font-family: 'Helvetica 55 Roman', sans-serif;
+font-family: 'Helvetica 65 Medium', sans-serif;*/
+
+@font-face {
+  font-family: integralCF-Bold;
+  src: url('./content/fonts/IntegralCF-Bold.otf');
+}
+
+@font-face {
+  font-family: integralCF-Medium;
+  src: url('./content/fonts/IntegralCF-Medium.otf');
+}
+
+@font-face {
+  font-family: integralCF-Regular;
+  src: url('./content/fonts/IntegralCF-Regular.otf');
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+.App {
+  background-color: black;
+  
+}
+
+::selection {
+  color: #eeeeee;
+  background-color: #131313;
+}
+
+/* hero section */
+.welcome-section{
+  width: 100%;
+  height: 100svh;
+  background-color: #eeeeee;
+}
+
+.main-part{
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  justify-content: center;
+}
+
+.landing-page-text{
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.welcome-main-text{
+  font-size: 230px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #131313;
+  font-family: integralCF-Bold !important;
+}
+.slash{
+  color: #2447b6;
+}
+.welcome-submain-text{
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #131313;
+  font-family: integralCF-Bold !important;
+}
+
+
+/* upcoming section */
+
+.upcoming{
+  height: 100svh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.upcoming-event{
+  width: 50%;
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upcoming-arrivals{
+  width: 50%;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upcoming-arrivals-h1{
+  color: #131313;
+}
+
+.upcoming-arrivals-seemore-button{
+  background-color: #131313 !important;
+  color: #eeeeee !important;
+}
+
+.upcoming-event-h1, .upcoming-arrivals-h1{
+  font-family: integralCF-Bold;
+  font-size: 80px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.upcoming-event-img, .upcoming-arrivals-img{
+  width: 55%;
+}
+
+.upcoming-event-buttons, .upcoming-arrivals-buttons{
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.upcoming-event-instagram-button, .upcoming-arrivals-instagram-button{
+  width: 60px;
+}
+
+.upcoming-event-seemore-button, .upcoming-arrivals-seemore-button{
+  margin-left: auto !important;
+  width: 270px;
+  height: 60px;
+
+  background-color: #eeeeee;
+  color: #131313;
+  font-family: integralCF-Bold;
+  font-size: 30px;
+
+  border: none;
+  border-radius: 50px;
+ 
+  padding-bottom: 5px;
+}
+
+.usluge{
+  height: 100svh;
+  width: 100%;
+
+  background-color: #eeeeee;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.usluge-h1{
+  margin: 0;
+  font-size: 120px;
+  
+  color: #131313;
+  font-family: integralCF-Bold;
+}
+
+.usluge-button{
+  margin-top: 80px;
+  width: 360px;
+  height: 100px;
+
+  background-color: #131313;
+  color: #eeeeee;
+  font-family: integralCF-Bold;
+  font-size: 45px;
+
+  border: none;
+  border-radius: 50px;
+ 
+  padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 1555px) {
+
+  .upcoming-event-h1, .upcoming-arrivals-h1{
+    font-size: 50px;
+  }
+
+  .usluge-h1{
+    font-size: 80px;
+  }
+
+  .usluge-button{
+    width: 300px;
+    height: 80px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 945px) {
+
+  .welcome-main-text{
+    font-size: 150px;
+  }
+
+  .welcome-submain-text{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .welcome-main-text{
+    font-size: 80px;
+  }
+
+  .welcome-submain-text{
+    font-size: 15px;
+  }
+
+
+  .upcoming{
+    height: 170svh;
+  }
+  .upcoming-event, .upcoming-arrivals{
+    width: 100%;
+  }
+
+  .upcoming-event-h1, .upcoming-arrivals-h1{
+    font-size: 35px;
+  }
+
+  .upcoming-arrivals-seemore-button, .upcoming-event-seemore-button{
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+  }
+  .upcoming-event-instagram-button, .upcoming-arrivals-instagram-button{
+    width: 30px;
+  }
+
+
+  .usluge{
+    height: 50svh;
+  }
+  .usluge-h1{
+    font-size: 25px;
+  }
+
+  .usluge-button{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 40px;
+  }
+}
