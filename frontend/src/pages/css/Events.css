@@ -1,0 +1,383 @@
+@font-face {
+    font-family: Bold;
+    src: url('../.././content/fonts/IntegralCF-Bold.otf');
+  }
+  
+  @font-face {
+    font-family: Medium;
+    src: url('../.././content/fonts/IntegralCF-Medium.otf');
+  }
+  
+  @font-face {
+    font-family: Regular;
+    src: url('../.././content/fonts/IntegralCF-Regular.otf');
+  }
+
+Link{
+    width: 100%;
+    
+}
+a{
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.plava{
+    color: #2447b6;
+}
+.line{
+    width: 14%;
+    height: 2px;
+    border-radius: 50px;
+    background-color: #131313;
+    margin-left: auto;
+    margin-right: auto;
+}
+.highlight{
+    background-color: #131313;
+    border-radius: 50px;
+}
+.highlight-plava{
+    background-color: #2447b6;
+    border-radius: 50px;
+}
+.highlight-number-color{
+    color: #eeeeee;
+}
+
+
+
+
+.events{
+    background-color: #eeeeee;
+    color: #131313;
+}
+
+.main-h1{
+    color: #131313;
+    font-family: Bold;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.mesec-h1{
+    font-family: Medium;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+
+.calendar-links-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.calendar-div{
+    width: 50%;
+    font-family: Regular;
+}
+
+.margin-top, .margin-bottom {
+    height: 50px;
+}
+.row-1, .row-2, .row-3, .row-4, .row-5{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+    margin-bottom: 5px;
+    background-color: transparent !important;
+}
+
+.calbox{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.number-h1{
+    margin: 0 !important;
+    font-size: 25px;
+    background-color: transparent;
+    padding-bottom: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.links{
+    width: 50%;
+    
+    font-family: Regular;
+}
+
+.event-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out;
+}
+
+.event-link:hover{
+    transform: translateX(20px);
+}
+
+.links-margin{
+    justify-content: left;
+    margin-left: 10px;
+}
+
+.link-h1{
+    font-size: 30px;
+    padding-bottom: 7px;
+}
+
+.arrow-icon{
+    width: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+.event-second-h1{
+    color: #131313;
+    font-family: Bold;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+.prethodne-zurke{
+    width: 45%;
+    margin: auto auto;
+}
+
+.event-last-card{
+    width: 100%;
+    height: 250px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-last-image{
+    width: 70%;
+    height: 75%;
+    object-fit: cover;
+    object-position: 40% 75%;
+}
+.event-last-details{
+    width: 30%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    
+    padding-bottom: 20px;
+}
+
+.event-last-h1{
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: 10px;
+    font-family: Medium;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+.event-last-h1-date{
+    margin-right: auto;
+    margin-left: 10px;
+    font-family: Regular;
+    margin-top: 0;
+    margin-bottom: auto;
+    font-size: 30px;
+}
+
+.last-event-link{
+    color: #131313;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.event-last-h1-link{
+    margin-right: auto;
+    margin-left: 10px;
+    font-family: Regular;
+    margin-top: auto;
+    font-size: 20px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 20svh;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 945px) {
+
+    .prethodne-zurke{
+        width: 90%;
+    }
+}
+  
+@media only screen and (max-width: 450px) {
+  
+    .main-h1{
+        font-size: 30px;
+    }
+    .mesec-h1{
+        font-size: 25px;
+    }
+    .calendar-div{
+        width: 100%;
+    }
+    .row-1, .row-2, .row-3, .row-4, .row-5{
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-bottom: 5px;
+        background-color: transparent !important;
+        margin-right: 10px;
+    }
+    .calbox{
+        width: 30px;
+        height: 30px;
+    }
+    .number-h1{
+        font-size: 15px;
+    }
+    .links{
+        width: 100%;
+    }
+    .links-margin{
+        justify-content: center;
+        margin-left: none;
+    }
+    .link-h1{
+        font-size: 20px;
+    }
+    .screen{
+        height: 0px;
+    }
+    .arrow-icon{
+        width: 15px;
+        margin-left: 10px;
+    }
+    .line{
+        width: 40%;
+    }
+
+    .event-second-h1{
+        font-size: 30px;
+    }
+
+
+
+    .prethodne-zurke{
+        width: 100%;
+    }
+    
+    .event-last-card{
+        width: 100%;
+        height: 100px;
+
+    }
+    
+    .event-last-image{
+        width: 45%;
+        height: 75%;
+    }
+    .event-last-details{
+        width: 45%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        padding-bottom: 10px !important;
+    }
+    
+    .event-last-h1{
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: 10px;
+        font-family: Medium;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    
+    .event-last-h1-date{
+        margin-right: auto;
+        margin-left: 10px;
+        font-family: Regular;
+        margin-top: 0;
+        margin-bottom: auto;
+        font-size: 15px;
+    }
+    
+    .last-event-link{
+        color: #131313;
+        width: 100%;
+        height: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center !important;
+    }
+    
+    .event-last-h1-link{
+        margin-right: auto;
+        margin-left: 10px;
+        font-family: Regular;
+        margin-top: auto;
+        font-size: 10px;
+        
+        margin-bottom: 0;
+    }
+    .link-arrow{
+        width: 10px;
+        margin-left: 5px;
+        padding-top: 5px;
+    }
+}

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import './../App.css'
+import './css/Shop.css'
 import { Link } from 'react-router-dom'
 
 import Navbar from './../components/Navbar'
@@ -29,12 +29,9 @@ const Shop = (props) => {
         fetchClothes()
     }, [])
     return(
-        <div className="shop">
-            <Navbar 
-             account={account}
-             setAccount={setAccount}
-            />
-            <div className="cloth-flex">
+        <div className="clothing">
+            <Navbar />
+            {/* <div className="cloth-flex"> 
             {clothes && clothes.map((cloth) => (
                 <div className="cloth-card">
                     <Link className='single-cloth-card' to={cloth._id} onClick={() => handleSendingBackId(cloth._id)}>
@@ -47,6 +44,7 @@ const Shop = (props) => {
                 </div>
             ))}
             </div>
+            */}
         </div>
     )
 }

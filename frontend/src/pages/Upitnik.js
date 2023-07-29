@@ -18,7 +18,7 @@ const Upitnik = (props) => {
 
             <h1 className="upitnik-h1" data-aos='fade-up' data-aos-duration="1000" data-aos-delay="1000">CONTACT</h1>
             <div className="contact-info">
-                <div className="line" data-aos='fade' data-aos-duration="1000"></div>
+                <div className="line-contact" data-aos='fade' data-aos-duration="1000"></div>
                 <h1 className='upitnik-contact-h1' >
                     
                     phone -  <span className="regular" data-aos='fade-right' data-aos-duration="1000" data-aos-delay="200">0616389927 / 0611978156</span> <br/>

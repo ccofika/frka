@@ -109,7 +109,7 @@ html{
 }
 
 .upcoming-arrivals-h1{
-  color: #131313;
+  color: #131313 !important;
 }
 
 .upcoming-arrivals-seemore-button{
@@ -122,6 +122,8 @@ html{
   font-size: 80px;
   margin-bottom: 20px;
   margin-top: 0;
+  background-color: transparent;
+  color: #eeeeee;
 }
 
 .upcoming-event-img, .upcoming-arrivals-img{
@@ -133,10 +135,16 @@ html{
   display: flex;
   flex-direction: row;
   margin-top: 20px;
+  background-color: transparent !important;
 }
 
 .upcoming-event-instagram-button, .upcoming-arrivals-instagram-button{
   width: 60px;
+  background-color: #131313;
+}
+
+.upcoming-arrivals-instagram-button{
+  background-color: #eeeeee;
 }
 
 .upcoming-event-seemore-button, .upcoming-arrivals-seemore-button{
@@ -247,6 +255,7 @@ html{
   }
   .upcoming-event-instagram-button, .upcoming-arrivals-instagram-button{
     width: 30px;
+    background-color: transparent !important;
   }
 
 
