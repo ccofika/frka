@@ -17,7 +17,7 @@ Link{
     width: 100%;
     
 }
-a{
+.flex-a{
     height: 100% !important;
     display: flex !important;
     justify-content: center;
@@ -61,6 +61,7 @@ a{
     font-size: 60px;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 
@@ -70,6 +71,7 @@ a{
     letter-spacing: 5px;
     margin-bottom: 7px;
     margin-top: 0;
+    text-align: center;
 }
 
 .calendar-links-div{
@@ -168,6 +170,8 @@ a{
     font-family: Bold;
     font-size: 60px;
     margin-top: 0px;
+    
+    text-align: center;
 }
 
 .prethodne-zurke{

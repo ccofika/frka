@@ -1,3 +1,9 @@
 .clothing{
     background-color: #eeeeee;
+    height: 100svh;
+
+    background-image: url('./../../content/landingpage/clothingPage.png');
+    background-position: center;
+    background-size: cover;
+    color: #eeeeee !important;
 }

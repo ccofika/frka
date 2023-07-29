@@ -10,7 +10,7 @@ import ClothesPage from './pages/ClothesPage'
 import Shop from './pages/Shop'
 import LogIn from './pages/LogIn'
 import Signup from './pages/Signup'
-import Bookoffrka from './pages/bookoffrka'
+import Usluge from './pages/Usluge'
 
 function App() {
 
@@ -104,9 +104,7 @@ function App() {
             <Route
               path='/login'
               element={
-                <LogIn
-                account={account}
-                setAccount={setAccount}/>
+                <LogIn/>
               }
             
             />
@@ -114,21 +112,15 @@ function App() {
             <Route
               path='/signup'
               element={
-                <Signup
-                  account={account}
-                  setAccount={setAccount}
-                />
+                <Signup/>
               }
             
             />
 
             <Route
-              path='/bookoffrka'
+              path='/usluge'
               element={
-                <Bookoffrka
-                  account={account}
-                  setAccount={setAccount}
-                />
+                <Usluge/>
               }
             
             />

@@ -36,7 +36,7 @@ const Navbar = (props) => {
                     CLOTHING
                 </h1>
             </Link>
-            <Link to="/bookoffrka">
+            <Link to="/usluge">
                 <h1 className='header-text'>
                     USLUGE
                 </h1>

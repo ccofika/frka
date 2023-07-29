@@ -170,7 +170,7 @@ const Events = (props) => {
                     <div className="row-1"></div>
                     <div className="row-2 links-margin">
                         <div className="event-link">
-                            <Link to="/13.08" data-aos='fade-right' data-aos-duration="1500" data-aos-delay="2500">
+                            <Link className='flex-a' to="/13.08" data-aos='fade-right' data-aos-duration="1500" data-aos-delay="2500">
                                 <h1 className="link-h1"><span className="plava">/</span>13.08. ZAPPA BARKA...</h1>
                                 <img src={Arrow} alt="" className="arrow-icon" />
                             </Link>
@@ -178,7 +178,7 @@ const Events = (props) => {
                     </div>
                     <div className="row-3 links-margin">
                         <div className="event-link">
-                            <Link to="/13.08" data-aos='fade-right' data-aos-duration="2000" data-aos-delay="2500">
+                            <Link className='flex-a' to="/13.08" data-aos='fade-right' data-aos-duration="2000" data-aos-delay="2500">
                                 <h1 className="link-h1"><span className="plava">/</span>20.08. ZAPPA BARKA...</h1>
                                 <img src={Arrow} alt="" className="arrow-icon" />
                             </Link>
@@ -186,7 +186,7 @@ const Events = (props) => {
                     </div>
                     <div className="row-4 links-margin">
                         <div className="event-link">
-                            <Link to="/13.08" data-aos='fade-right' data-aos-duration="2500" data-aos-delay="2500">
+                            <Link className='flex-a' to="/13.08" data-aos='fade-right' data-aos-duration="2500" data-aos-delay="2500">
                                 <h1 className="link-h1"><span className="plava">/</span>28.08. TRANZIT...</h1>
                                 <img src={Arrow} alt="" className="arrow-icon" />
                             </Link>
@@ -210,7 +210,7 @@ const Events = (props) => {
 
 
                         <div className="last-event-link">
-                            <Link to="https://www.google.com/drive/" >
+                            <Link className='flex-a' to="https://www.google.com/drive/" >
                                 <h1 className="event-last-h1-link"><span className="plava">/</span>POGLEDAJ SLIKE</h1>
                                 <img src={Arrow} alt="" className="arrow-icon link-arrow" />
                             </Link>
@@ -228,7 +228,7 @@ const Events = (props) => {
 
 
                         <div className="last-event-link">
-                            <Link to="https://www.google.com/drive/" >
+                            <Link className='flex-a' to="https://www.google.com/drive/" >
                                 <h1 className="event-last-h1-link"><span className="plava">/</span>POGLEDAJ SLIKE</h1>
                                 <img src={Arrow} alt="" className="arrow-icon link-arrow" />
                             </Link>
@@ -246,7 +246,7 @@ const Events = (props) => {
 
 
                         <div className="last-event-link">
-                            <Link to="https://www.google.com/drive/" >
+                            <Link className='flex-a' to="https://www.google.com/drive/" >
                                 <h1 className="event-last-h1-link"><span className="plava">/</span>POGLEDAJ SLIKE</h1>
                                 <img src={Arrow} alt="" className="arrow-icon link-arrow" />
                             </Link>

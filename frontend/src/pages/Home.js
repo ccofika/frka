@@ -113,7 +113,7 @@ const Home = (props) => {
             <div className="usluge">
                 <h1 className="usluge-h1" data-aos='fade' data-aos-duration="2000">organizuj svoju<br/>žurku<span className="slash">/</span>proslavu</h1>
 
-                <button className="usluge-button" data-aos='fade-down' data-aos-duration="1500" data-aos-delay="800">usluge</button>
+                <Link to="/Usluge"><button className="usluge-button" data-aos='fade-down' data-aos-duration="1500" data-aos-delay="800">usluge</button></Link>
             </div>
 
 
