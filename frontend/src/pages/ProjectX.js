@@ -6,7 +6,7 @@ const ProjectX = () => {
 
     useEffect(() => {
         const handleOrientationChange = () => {
-          if (window.innerWidth <= 767) {
+          if (window.innerWidth <= 1000) {
             if (window.orientation === 90 || window.orientation === -90) {
               alert('Please rotate your device to landscape mode for horizontal scrolling.');
             }
