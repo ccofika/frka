@@ -1,6 +1,21 @@
+.portret-window{
+  height: 100svh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.rotate-phone-text{
+  color: white;
+  font-family: Regular;
+}
+
 .projectx {
     margin: 0;
     overflow: hidden; /* Prevent vertical scrolling */
+    max-height: 100svh;
   }
   
   .scroll-container {
@@ -22,5 +37,9 @@
       overflow-x: auto;
       white-space: nowrap;
     }
+  }
+
+  .rotate-phone-text{
+
   }
   
