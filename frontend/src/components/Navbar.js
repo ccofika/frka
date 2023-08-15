@@ -31,6 +31,11 @@ const Navbar = (props) => {
                     ŽURKE
                 </h1>
             </Link>
+            <Link to="/projectx">
+                <h1 className='header-text' id='navbar-splitter'>
+                    PROJECT X 
+                </h1>
+            </Link>
             <Link to="/odeca">
                 <h1 className='header-text'>
                     CLOTHING

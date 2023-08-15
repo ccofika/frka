@@ -1,0 +1,26 @@
+.projectx {
+    margin: 0;
+    overflow: hidden; /* Prevent vertical scrolling */
+  }
+  
+  .scroll-container {
+    width: 100vw; /* Adjust to your needs */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  
+  .scroll-container img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 767px) {
+    .scroll-container {
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }
+  

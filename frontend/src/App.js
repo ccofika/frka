@@ -11,6 +11,7 @@ import Shop from './pages/Shop'
 import LogIn from './pages/LogIn'
 import Signup from './pages/Signup'
 import Usluge from './pages/Usluge'
+import ProjectX from './pages/ProjectX'
 
 function App() {
 
@@ -113,6 +114,14 @@ function App() {
               path='/signup'
               element={
                 <Signup/>
+              }
+            
+            />
+
+            <Route
+              path='/projectx'
+              element={
+                <ProjectX/>
               }
             
             />
