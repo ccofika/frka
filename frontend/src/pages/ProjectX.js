@@ -1,11 +1,22 @@
 import './css/ProjectX.css'
-import image from './../content/landingpage/siteImage.jpg'
-import { useEffect, Component} from 'react'
-import DeviceOrientation, { Orientation } from 'react-screen-orientation'
+import image from './../content/landingpage/siteimage.jpg'
+import { useEffect } from 'react'
+import Navbar from './../components/Navbar'
 
 const ProjectX = () => {
 
     useEffect(() => {
+        const handleOrientationChange = () => {
+          if (window.innerWidth <= 1000) {
+            if (window.orientation === 90 || window.orientation === -90) {
+              alert('Please rotate your device to landscape mode for horizontal scrolling.');
+            }
+          }
+        };
+    
+        handleOrientationChange();
+    
+        window.addEventListener('orientationchange', handleOrientationChange);
     
         // Handle scroll with mouse scrollwheel
         const container = document.querySelector('.scroll-container');
@@ -19,31 +30,17 @@ const ProjectX = () => {
         container.addEventListener('wheel', handleScroll);
     
         return () => {
+          window.removeEventListener('orientationchange', handleOrientationChange);
           container.removeEventListener('wheel', handleScroll);
         };
       }, []);
 
     return(
-      <DeviceOrientation className="allrounder">
-        <Orientation orientation='portrait' alwaysRender={false}>
-          <div className="portret-window">
-            <p className='rotate-phone-text'>Rotiraj telefon</p>
-          </div>
-        </Orientation>
-
-        <Orientation orientation='landscape' alwaysRender={false}>
         <div className="projectx">
             <div className="scroll-container">
                 <img src={image} alt="Horizontal Scroll Image" />
             </div>
         </div>
-        
-        </Orientation>
-        
-
-      </DeviceOrientation>
-
-        
     )
 }
 

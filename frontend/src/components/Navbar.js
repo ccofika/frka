@@ -26,26 +26,32 @@ const Navbar = (props) => {
                     HOME
                 </h1>
             </Link>
-            <Link to="/events">
+            {/* <Link to="/events"> 
                 <h1 className='header-text'>
                     ŽURKE
                 </h1>
             </Link>
+            */}
             <Link to="/projectx">
                 <h1 className='header-text' id='navbar-splitter'>
-                    PROJECT X 
+                    ŽURKE
                 </h1>
             </Link>
+            {/* 
             <Link to="/odeca">
                 <h1 className='header-text'>
                     CLOTHING
                 </h1>
             </Link>
+             */}
+
+             {/* 
             <Link to="/usluge">
                 <h1 className='header-text'>
                     USLUGE
                 </h1>
             </Link>
+             */}
             <Link to="/upitnik">
                 <h1 className='header-text' id='navbar-splitter'>
                     KONTAKT

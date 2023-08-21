@@ -12,10 +12,10 @@ import Navbar from './../components/Navbar'
 
 import { Link } from 'react-router-dom'
 
-import FrkaCover from '../content/landingpage/frkaTranzit.jpg'
+import FrkaCover from '../content/landingpage/916najava.jpg'
 import instagramWhite from './../content/icons/instagramWhite.png'
 import instagramBlack from './../content/icons/instagramBlack.png'
-import upcomingApparel from './../content/landingpage/TShirt.png'
+import upcomingApparel from './../content/landingpage/questionmark.png'
 
 
 const Home = (props) => {
@@ -85,37 +85,38 @@ const Home = (props) => {
             <div className="upcoming">
 
                 <div className="upcoming-event">
-                    <h1 className="upcoming-event-h1" data-aos='fade-down' data-aos-duration="1000">NEXT EVENT</h1>
-                    <img src={FrkaCover} alt="" className="upcoming-event-img" data-aos='fade-down' data-aos-duration="1000" data-aos-delay="300"/>
+                    <h1 className="upcoming-event-h1" >NEXT EVENT</h1>
+                    <img src={FrkaCover} alt="" className="upcoming-event-img" />
 
                     <div className="upcoming-event-buttons">
                         <Link to="https://www.instagram.com/p/Ct1imQ0MD2z/">
-                            <img src={instagramWhite} alt="" className="upcoming-event-instagram-button" data-aos='fade-down' data-aos-duration="2000" data-aos-delay="500"/>
+                            <img src={instagramWhite} alt="" className="upcoming-event-instagram-button" />
                         </Link>
-                        <button className="upcoming-event-seemore-button" data-aos='fade-down' data-aos-duration="2000" data-aos-delay="500">SEE MORE</button>
+                        <button className="upcoming-event-seemore-button" >SEE MORE</button>
                     </div>
                 </div>
 
                 <div className="upcoming-arrivals">
-                    <h1 className="upcoming-arrivals-h1" data-aos='fade-down' data-aos-duration="1000">NEXT ARRIVALS</h1>
-                    <img src={upcomingApparel} alt="" className="upcoming-arrivals-img" data-aos='fade-down' data-aos-duration="1000" data-aos-delay="300"/>
+                    <h1 className="upcoming-arrivals-h1" >CLOTHING</h1>
+                    <img src={upcomingApparel} alt="" className="upcoming-arrivals-img" />
 
                     <div className="upcoming-arrivals-buttons">
+                        {/* 
                         <Link to="https://www.instagram.com/frka.bg/">
                             <img src={instagramBlack} alt="" className="upcoming-arrivals-instagram-button" data-aos='fade-down' data-aos-duration="2000" data-aos-delay="500"/>
                         </Link>
                         <button className="upcoming-arrivals-seemore-button" data-aos='fade-down' data-aos-duration="2000" data-aos-delay="500">SEE MORE</button>
-                    </div>
+                     */}</div>
                 </div>
             </div>
 
-
+            {/* 
             <div className="usluge">
                 <h1 className="usluge-h1" data-aos='fade' data-aos-duration="2000">organizuj svoju<br/>žurku<span className="slash">/</span>proslavu</h1>
 
                 <Link to="/Usluge"><button className="usluge-button" data-aos='fade-down' data-aos-duration="1500" data-aos-delay="800">usluge</button></Link>
             </div>
-
+             */}
 
             {/* 
 
