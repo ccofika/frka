@@ -93,7 +93,7 @@ const Home = (props) => {
                             <img src={instagramWhite} alt="" className="upcoming-event-instagram-button" />
                         </Link>
                         
-                        <Link to="/projectx" className='linkseemore'>
+                        <Link to="/projectdelta" className='linkseemore'>
                         <button className="upcoming-event-seemore-button" >SEE MORE</button>
                         </Link>
                     </div>
