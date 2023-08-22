@@ -2,21 +2,12 @@ import './css/ProjectX.css'
 import image from './../content/landingpage/project-delta.jpg'
 import { useEffect } from 'react'
 import Navbar from './../components/Navbar'
+import { Link } from 'react-router-dom'
 
 const ProjectX = () => {
 
     useEffect(() => {
-        const handleOrientationChange = () => {
-          if (window.innerWidth <= 1000) {
-            if (window.orientation === 90 || window.orientation === -90) {
-              alert('Please rotate your device to landscape mode for horizontal scrolling.');
-            }
-          }
-        };
-    
-        handleOrientationChange();
-    
-        window.addEventListener('orientationchange', handleOrientationChange);
+  
     
         // Handle scroll with mouse scrollwheel
         const container = document.querySelector('.scroll-container');
@@ -30,7 +21,6 @@ const ProjectX = () => {
         container.addEventListener('wheel', handleScroll);
     
         return () => {
-          window.removeEventListener('orientationchange', handleOrientationChange);
           container.removeEventListener('wheel', handleScroll);
         };
       }, []);
@@ -39,6 +29,13 @@ const ProjectX = () => {
         <div className="projectx">
             <div className="scroll-container">
                 <img src={image} alt="Horizontal Scroll Image" />
+            </div>
+
+            <div className="slike">
+              
+            <Link to="https://drive.google.com/drive/u/8/folders/1pJV_0Ml6d7lZa6O9uRQY7aX9JNtJI64S" target="_blank">
+              <button className="slikelink">20.08.</button>
+            </Link>
             </div>
         </div>
     )

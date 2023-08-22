@@ -92,7 +92,10 @@ const Home = (props) => {
                         <Link to="https://www.instagram.com/p/Ct1imQ0MD2z/">
                             <img src={instagramWhite} alt="" className="upcoming-event-instagram-button" />
                         </Link>
+                        
+                        <Link to="/projectx" className='linkseemore'>
                         <button className="upcoming-event-seemore-button" >SEE MORE</button>
+                        </Link>
                     </div>
                 </div>
 

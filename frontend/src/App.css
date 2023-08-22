@@ -15,7 +15,9 @@
 }
 
 
+a{
 
+}
 html{
   scroll-behavior: smooth;
 }
@@ -130,9 +132,12 @@ html{
   background-color: transparent !important;
 }
 
+
+
 .upcoming-event-instagram-button, .upcoming-arrivals-instagram-button{
   width: 60px;
   background-color: #131313;
+  margin-right: auto !important;
 }
 
 .upcoming-arrivals-instagram-button{
@@ -153,8 +158,15 @@ html{
   border-radius: 50px;
  
   padding-bottom: 5px;
+  
+  cursor: pointer;
 }
-
+.linkseemore{
+  margin-left: auto !important;
+  float: right;
+  margin-right: 0 !important;
+ 
+}
 .usluge{
   height: 100svh;
   width: 100%;
