@@ -12,7 +12,7 @@ import Navbar from './../components/Navbar'
 
 import { Link } from 'react-router-dom'
 
-import FrkaCover from '../content/landingpage/916najava.jpg'
+import FrkaCover from '../content/landingpage/finalcover.jpg'
 import instagramWhite from './../content/icons/instagramWhite.png'
 import instagramBlack from './../content/icons/instagramBlack.png'
 import upcomingApparel from './../content/landingpage/questionmark.png'
@@ -89,7 +89,7 @@ const Home = (props) => {
                     <img src={FrkaCover} alt="" className="upcoming-event-img" />
 
                     <div className="upcoming-event-buttons">
-                        <Link to="https://www.instagram.com/p/Ct1imQ0MD2z/">
+                        <Link to="https://www.instagram.com/frka.bg/" target="_blank">
                             <img src={instagramWhite} alt="" className="upcoming-event-instagram-button" />
                         </Link>
                         
