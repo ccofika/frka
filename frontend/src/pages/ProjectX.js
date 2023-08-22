@@ -1,5 +1,5 @@
 import './css/ProjectX.css'
-import image from './../content/landingpage/project-delta.jpg'
+import image from './../content/landingpage/projectdelta2.jpg'
 import { useEffect } from 'react'
 import Navbar from './../components/Navbar'
 import { Link } from 'react-router-dom'
