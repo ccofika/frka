@@ -32,7 +32,7 @@ const Navbar = (props) => {
                 </h1>
             </Link>
             */}
-            <Link to="/projectx">
+            <Link to="/projectdelta">
                 <h1 className='header-text' id='navbar-splitter'>
                     ŽURKE
                 </h1>

@@ -119,7 +119,7 @@ function App() {
             />
 
             <Route
-              path='/projectx'
+              path='/projectdelta'
               element={
                 <ProjectX/>
               }
