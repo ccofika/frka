@@ -36,6 +36,9 @@ const ProjectX = () => {
             <Link to="https://drive.google.com/drive/u/8/folders/1pJV_0Ml6d7lZa6O9uRQY7aX9JNtJI64S" target="_blank">
               <button className="slikelink">20.08.</button>
             </Link>
+            <Link to="https://drive.google.com/drive/folders/1cG3Tl6KbHWqzvOMLIvLbxbcNtnTGt3YK?usp=sharing" target="_blank">
+              <button className="slikelink">30.08.</button>
+            </Link>
             </div>
         </div>
     )
