@@ -12,7 +12,7 @@ import Navbar from './../components/Navbar'
 
 import { Link } from 'react-router-dom'
 
-import FrkaCover from '../content/landingpage/final-cover2.jpg'
+import FrkaCover from '../content/landingpage/frkakapirasbajo.jpg'
 import instagramWhite from './../content/icons/instagramWhite.png'
 import instagramBlack from './../content/icons/instagramBlack.png'
 import upcomingApparel from './../content/landingpage/questionmark.png'
